@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>qr-transfer</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/grid.css" />
+    <link rel="stylesheet" href="assets/css/qr_reader.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="toast" class="width-100"></div>
+        <div id="loading">
+            <div id="loading-bar"></div>
+        </div>
+
+        <!---------------->
+        <!--app-list-->
+        <!---------------->
+        <div id="app" class="flex width-100 page">
+
+        </div>
+
+
+
+        <div id="bottom-bar">
+            <div class="inner flex justify-content-spacebetween width-100">
+                <div id="button-left"></div>
+                <div id="button-center"></div>
+                <div id="button-right"></div>
+            </div>
+        </div>
+
+        <div id="qr-screen" hidden>
+            <video id="video"></video>
+            <div id="corner-nw"></div>
+            <div id="corner-no"></div>
+            <div id="corner-so"></div>
+            <div id="corner-sw"></div>
+            <div id="startDecoding" hidden>Start Scanning</div>
+        </div>
+
+        <!-- for local development -->
+        <script src="assets/js/jQuery-3.1.0.js"></script>
+        <script src="assets/js/moments.min.js"></script>
+        <script src="assets/js/helper.js"></script>
+        <script src="assets/js/qr_reader.js"></script>
+        <script src="app.js"></script>
+        <!-- for packaged app -->
+</body>
+
+</html>
