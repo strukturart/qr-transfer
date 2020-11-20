@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "name": "bHacker",
+  "name": "qr-transfer",
   "description": "An app to download and install apps",
-  "origin": "app://bhstore.bananahackers.net",
+  "origin": "app://qr-transfer.app",
   "launch_path": "/index.html",
-  "type": "certified",
+  "type": "privileged",
   "fullscreen": "true",
 
   "icons": {
