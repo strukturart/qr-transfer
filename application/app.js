@@ -9,6 +9,7 @@ function handleKeyDown(evt) {
 
     switch (evt.key) {
         case "SoftLeft":
+        case "8":
 
             start_scan(function(callback) {
                 let data;
